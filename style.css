@@ -1,0 +1,211 @@
+.container1 {
+    background: #1F2937;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    overflow: auto;
+  }
+  
+.headerlogo {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+    text-align: center;
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    left: 300px;
+    padding: 10px;
+}
+
+.subcontainer2 {
+    position: absolute;
+    color: #F9FAF8;
+    width: 500px;
+    left: 800px;
+    display: flex;
+    top: 15px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    outline:none;
+  }
+
+.headerlink1 a, .headerlink2 a, .headerlink3 a {
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    -webkit-tap-highlight-color: white;
+  }
+
+.subcontainer3 {
+    position: absolute;
+    color: #F9FAF8;
+    width: 350px;
+    height: 200px;
+    left: 300px;
+    padding: 10px;
+    display: flex;
+    top: 140px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+
+.titletext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 15px;
+}
+
+.signupbutton a {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+    background-color: #3882F6;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    /* make rounded corners */ 
+    border-radius: 0.5em;
+    /* avoid highlighting the hyper link */
+    outline: none;
+    text-decoration:none;
+}
+  
+.subcontainer4 {
+    position: absolute;
+    background-color: #eef1f6;
+    color: grey;
+    width: 430px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    top: 140px;
+    left: 820px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+
+
+.container2 {
+    position: absolute;
+    background-color: white;
+    color: grey;
+    height: 500px;
+    display: flex;
+    top: 500px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+.subcontainer21 {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subcontainer22 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    top: 150px;
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subcontainer2211, .subcontainer2221, .subcontainer2231, .subcontainer2241 {
+    height: 150px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: #3882F6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0.5em;
+    /* background-color: black; */
+}
+
+.subcontainer2212, .subcontainer2222, .subcontainer2232, .subcontainer2242 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: grey;
+    /* background-color: black; */
+}
+
+
+.container3 {
+    position: absolute;
+    background-color: #E5E7EB;
+    color: grey;
+    height: 400px;
+    display: flex;
+    top: 1000px;
+    left: 0;
+    right: 0;
+  }
+
+
+
+
+
+
+.container4 {
+    position: absolute;
+    background-color:white;
+    color: grey;
+    height: 300px;
+    display: flex;
+    top: 1400px;
+    left: 0;
+    right: 0;
+  }
+
+.container5 {
+    position: absolute;
+    background-color: #1F2937;
+    color: grey;
+    height: 100px;
+    display: flex;
+    top: 1700px;
+    left: 0;
+    right: 0;
+  }
+  /* SOLUTION */
+  
+  /* disclaimer: duplicating the `.container` selector here isn't best practice.
+  In your solution you probably put it right inside the existing `.container`,
+  which _is_ the best practice. 
+  
+  We separated it out here to make it extra clear what has changed. */
+  
+  /* .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
